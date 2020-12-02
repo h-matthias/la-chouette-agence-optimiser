@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1039,4 +1039,10 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Ajout régle aprés optimisation SEO et Accessibilité */
+
+li{
+    margin-bottom: 10px;
 }
