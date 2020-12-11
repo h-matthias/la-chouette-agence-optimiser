@@ -1098,4 +1098,17 @@ li{
     }
 }
 
+a:focus:not(.social){
+    text-decoration: underline;
+}
 
+.social:focus > i{
+    color:white;
+}
+.portfolio-block:focus > img{
+    box-shadow: 5px 5px 10px red;
+}
+.btn:focus{
+    background-color: white;
+    border: 1px solid black;
+}
